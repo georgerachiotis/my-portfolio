@@ -13,7 +13,12 @@ export default function Hero() {
                 </p>
 
                 <div className="btnRow">
-                <a className="btn btnPrimary" href="/cv.pdf" target="_blank" rel="noreferrer">
+                <a 
+                    className="btn btnPrimary"
+                    href={`${import.meta.env.BASE_URL}cv.pdf`}
+                    target="_blank"
+                    rel="noreferrer"
+                >
                     Download CV
                 </a>
                 </div>
