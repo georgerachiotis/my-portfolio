@@ -3,7 +3,7 @@
 A modern developer portfolio built with React and Vite.
 
 ## Live Demo
-https://your-portfolio-link.com
+https://georgerachiotis.github.io/my-portfolio/
 
 ## Features
 - Responsive layout
