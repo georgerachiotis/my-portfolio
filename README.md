@@ -2,6 +2,9 @@
 
 A single-page React / Vite portfolio for Junior Software Developer and Junior Full-Stack Developer applications. Uses plain CSS and existing dependencies; no routing or UI library is needed.
 
+## Live Demo
+https://georgerachiotis.github.io/my-portfolio/
+
 ## Development
 
 - Run `npm install` once.
@@ -16,7 +19,7 @@ A single-page React / Vite portfolio for Junior Software Developer and Junior Fu
 - `src/data/projects.js`: projects with stable IDs, descriptions, stack arrays, optional screenshots/alt text, status, demo links and repository links.
 - `src/components/ProjectCard.jsx`: shared presentation for every project. Images and demos render only when supplied.
 - About, experience and education have dedicated components.
-- `public/cv.pdf`: existing CV, preserved.
+- `public/cv.pdf`: updated FlowCV resume. Replace this source file when updating the CV, not the generated copy in `dist`.
 - `src/styles/global.css`: palette, layout, responsive breakpoints, focus styles and reduced-motion support.
 - `index.html`: page title, description and social metadata.
 
@@ -25,8 +28,8 @@ A single-page React / Vite portfolio for Junior Software Developer and Junior Fu
 1. Supply real screenshots for projects, with descriptive alt text. None were included in the original repository.
 2. Featured projects are Decision Companion and The Unbroken: Gladiator's Rise. Their descriptions follow their public repository documentation.
 3. Decision Companion links to its GitHub Pages application. The Unbroken is a JavaFX desktop application, so its repository provides setup/run instructions instead of a browser demo.
-4. Review the existing CV against the new positioning. It has not been rewritten.
-5. Supply the final public URL and a social sharing image if canonical / og:url / og:image metadata is wanted.
+4. The updated CV supplied by the owner is included in `public/cv.pdf`.
+5. Supply a social sharing image if og:image metadata is wanted.
 6. Training is listed without unsupported completion dates or certificate credentials. Coding Factory is explicitly in progress.
 
 ## Accessibility and performance
