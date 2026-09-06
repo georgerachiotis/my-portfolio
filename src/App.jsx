@@ -1,31 +1,28 @@
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Projects from "./components/Projects";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import { useReveal } from "./hooks/useReveal";
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import About from './components/About';
+import Skills from './components/Skills';
+import Projects from './components/Projects';
+import Experience from './components/Experience';
+import Education from './components/Education';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 export default function App() {
-  
-  useReveal();
-
   return (
     <>
+      <a className="skipLink" href="#main">Skip to content</a>
       <Navbar />
-      <main className="container">
+      <main id="main" className="container">
         <Hero />
-        <section id="projects" className="section">
-          <Projects />
-        </section>
-        <section id="about" className="section">
-          <About />
-        </section>
-        <section id="contact" className="section">
-          <Contact />
-        </section>
+        <About />
+        <Skills />
+        <Projects />
+        <Experience />
+        <Education />
+        <Contact />
       </main>
       <Footer />
     </>
-  )
+  );
 }
