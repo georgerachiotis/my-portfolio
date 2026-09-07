@@ -611,6 +611,13 @@ h3 {
   font-size: 17px;
 }
 
+.contactActions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
 .contactSocials {
   display: flex;
   justify-content: center;
