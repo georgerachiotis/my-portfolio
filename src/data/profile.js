@@ -1,6 +1,6 @@
 export const links = {
   github: 'https://github.com/georgerachiotis',
-  linkedin: 'https://www.linkedin.com/in/georgios-rachiotis-019b42388/',
+  linkedin: 'https://www.linkedin.com/in/georgios-rachiotis',
   email: 'mailto:georgerachiotis1995@gmail.com',
 };
 export const navigation = ['Home', 'About', 'Skills', 'Projects', 'Experience', 'Education', 'Contact'];
