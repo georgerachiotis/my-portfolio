@@ -215,10 +215,8 @@ h1 span {
   color: #182019;
 }
 
-.heroSocials {
+.heroCvLink {
   display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
   margin-top: 23px;
   font-size: 15px;
 }
@@ -817,9 +815,6 @@ h3 {
   }
   .heroStack {
     font-size: 14px;
-  }
-  .heroSocials {
-    gap: 20px;
   }
   .heroBottom {
     flex-direction: column;

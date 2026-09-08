@@ -1,5 +1,4 @@
 import profilePic from '../assets/profilepic.jpg';
-import { links } from '../data/profile';
 import ExternalLink from './ExternalLink';
 
 export default function Hero() {
@@ -16,9 +15,7 @@ export default function Hero() {
           <a className="btn btnPrimary" href="#projects">View Projects <span aria-hidden="true">↗</span></a>
           <a className="btn" href="#contact">Contact Me <span aria-hidden="true">→</span></a>
         </div>
-        <div className="heroSocials">
-          <ExternalLink href={links.github}>GitHub</ExternalLink>
-          <ExternalLink href={links.linkedin}>LinkedIn</ExternalLink>
+        <div className="heroCvLink">
           <ExternalLink href={import.meta.env.BASE_URL + 'cv.pdf'}>View CV</ExternalLink>
         </div>
       </div>
