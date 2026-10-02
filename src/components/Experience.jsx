@@ -1,7 +1,7 @@
 import Section from './Section';
 
 export default function Experience() {
-  return <Section id="experience" number="04" title="Experience" intro="Experience that shapes how I work.">
+  return <Section id="experience" number="05" title="Experience" intro="Professional experience.">
     <article className="timelineRow">
       <p className="timelineDate">2018 — Present</p>
       <div><h3>Military Officer</h3><p className="organization">Hellenic Army</p>

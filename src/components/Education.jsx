@@ -3,12 +3,12 @@ import Section from './Section';
 
 export default function Education() {
   return (
-    <Section id="education" number="05" title="Education" intro="Continuing to learn, every day.">
+    <Section id="education" number="04" title="Education & training" intro="Continuing to learn.">
       <article className="timelineRow">
         <div><span className="badge current">In progress</span></div>
         <div>
           <h3>Coding Factory</h3>
-          <p className="organization">Athens University of Economics and Business</p>
+          <p className="organization">Athens University of Economics and Business (AUEB)</p>
           <p>Software Development</p>
         </div>
       </article>

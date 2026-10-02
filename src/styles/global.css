@@ -28,6 +28,10 @@ a {
   text-decoration: none;
 }
 
+a:not(.btn):not(.brand):not(.skipLink) {
+  cursor: pointer;
+}
+
 button {
   font: inherit;
 }
@@ -101,8 +105,27 @@ a:focus-visible,button:focus-visible,summary:focus-visible {
   color: #c1c9c5;
 }
 
-.navLinks a:hover,.textLink:hover,.footer a:hover {
+.navLinks a,.footer a,.heroBottom a,.textLink:not(.heroCvLink) {
+  text-decoration: none;
+  background-image: linear-gradient(#617568,#617568);
+  background-repeat: no-repeat;
+  background-position: left bottom 1px;
+  background-size: 100% 1px;
+  transition: color .18s,background-image .18s;
+}
+
+.navLinks a:hover,.navLinks a:focus-visible,
+.textLink:hover,.textLink:focus-visible,
+.footer a:hover,.footer a:focus-visible,
+.heroBottom a:hover,.heroBottom a:focus-visible,
+.contactSocials a:hover,.contactSocials a:focus-visible {
   color: var(--accent);
+  background-image: linear-gradient(var(--accent),var(--accent));
+}
+
+.projectLinks .textLink {
+  padding: 5px 0;
+  background-image: linear-gradient(#718576,#718576);
 }
 
 .menuToggle {
@@ -163,18 +186,6 @@ h1 span {
   margin-top: 13px;
 }
 
-.heroStack {
-  font-size: 15px;
-  margin-top: 24px;
-  color: #c4cfc8;
-  line-height: 2;
-}
-
-.heroStack span {
-  padding-inline: 5px;
-  color: #8d9a91;
-}
-
 .btnRow {
   display: flex;
   flex-wrap: wrap;
@@ -216,9 +227,27 @@ h1 span {
 }
 
 .heroCvLink {
-  display: flex;
+  display: inline-flex;
+  align-items: center;
   margin-top: 23px;
+  padding: 7px 11px;
+  border: 1px solid #52645a;
+  border-radius: 5px;
+  color: #e5ece7;
   font-size: 15px;
+  transition: color .18s,border-color .18s,background .18s;
+}
+
+.heroCvLink:hover,.heroCvLink:focus-visible {
+  color: var(--accent);
+  border-color: var(--accent);
+  background: #1b251f;
+}
+
+.heroCvLink .textLink,
+.heroCvLink .textLink:hover,
+.heroCvLink .textLink:focus-visible {
+  background-image: none;
 }
 
 .textLink {
@@ -231,6 +260,12 @@ h1 span {
 .textLink span {
   color: var(--accent);
 }
+
+.contactSocials .textLink {
+  padding-bottom: 4px;
+}
+
+.socialIcon { width: 17px; height: 17px; flex: none; }
 
 .portrait {
   align-self: center;
@@ -413,6 +448,11 @@ h3 {
   border-radius: 8px;
   background: linear-gradient(110deg,#202a22,#191f1c);
   overflow: hidden;
+}
+
+.featuredProject {
+  border-color: #61785f;
+  background: linear-gradient(110deg,#253228,#191f1c);
 }
 
 .projectContent {
@@ -812,9 +852,6 @@ h3 {
 @media (max-width:480px) {
   .skillsGrid {
     grid-template-columns: 1fr;
-  }
-  .heroStack {
-    font-size: 14px;
   }
   .heroBottom {
     flex-direction: column;

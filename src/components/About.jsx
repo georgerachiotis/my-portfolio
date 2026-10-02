@@ -2,13 +2,12 @@ import Section from './Section';
 
 export default function About() {
   return (
-    <Section id="about" number="01" title="About" intro="A new chapter. A solid foundation.">
+    <Section id="about" number="03" title="About" intro="A little about me.">
       <div className="aboutGrid">
-        <p className="statement">Bringing accountability and a team-first mindset to software development.</p>
+        <p className="statement">A software developer with a background in leadership and teamwork.</p>
         <div className="prose">
-          <p>I'm a Junior Software Developer transitioning from a career as a Military Officer in the Hellenic Army. My focus is backend and full-stack development, working with Java, Spring Boot, JavaScript, React, Node.js and relational databases.</p>
-          <p>My previous career has taught me to take responsibility, communicate clearly and make decisions under pressure. I bring those habits to the way I learn, solve problems and work with others.</p>
-          <p>I'm currently attending Coding Factory at Athens University of Economics and Business, continuing my technical education and building practical projects as I prepare for my first professional software development role.</p>
+          <p>I'm developing my software skills through hands-on projects, from web applications to desktop software. I'm also completing the Software Development program at Coding Factory, Athens University of Economics and Business (AUEB).</p>
+          <p>My previous experience as a Military Officer in the Hellenic Army strengthened my teamwork, accountability, decision-making and problem-solving under pressure.</p>
         </div>
       </div>
     </Section>

@@ -8,9 +8,7 @@ export default function Hero() {
         <p className="availability"><span /> Open to junior developer opportunities</p>
         <p className="heroName">Georgios Rachiotis</p>
         <h1>Junior Software<br /><span>Developer.</span></h1>
-        <p className="heroFocus">Full-Stack Development · Backend Focus</p>
-        <p className="lead">Building practical software with a thoughtful approach to code, a willingness to learn, and a strong sense of responsibility.</p>
-        <p className="heroStack">Java <span>·</span> Spring Boot <span>·</span> JavaScript <span>·</span> React <span>·</span> Node.js</p>
+        <p className="heroFocus">Building practical applications and continuously expanding my software development skills.</p>
         <div className="btnRow">
           <a className="btn btnPrimary" href="#projects">View Projects <span aria-hidden="true">↗</span></a>
           <a className="btn" href="#contact">Contact Me <span aria-hidden="true">→</span></a>

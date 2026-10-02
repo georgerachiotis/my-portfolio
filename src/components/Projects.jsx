@@ -3,8 +3,10 @@ import ProjectCard from './ProjectCard';
 import Section from './Section';
 
 export default function Projects() {
-  return <Section id="projects" number="03" title="Projects" intro="Putting learning into practice.">
-    <p className="sectionDescription">A decision-making tool for the browser and a Java desktop game — two ways I put software development into practice.</p>
-    <div className="projectsGrid">{projects.map((project) => <ProjectCard key={project.id} project={project} />)}</div>
+  const orderedProjects = [...projects].sort((a, b) => Number(Boolean(b.featured)) - Number(Boolean(a.featured)));
+
+  return <Section id="projects" number="01" title="Projects" intro="Things I've built.">
+    <p className="sectionDescription">A web application and a desktop game, built to solve practical problems and explore different parts of software development.</p>
+    <div className="projectsGrid">{orderedProjects.map((project) => <ProjectCard key={project.id} project={project} />)}</div>
   </Section>;
 }

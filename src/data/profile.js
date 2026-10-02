@@ -3,13 +3,14 @@ export const links = {
   linkedin: 'https://www.linkedin.com/in/georgios-rachiotis',
   email: 'mailto:georgerachiotis1995@gmail.com',
 };
-export const navigation = ['Home', 'About', 'Skills', 'Projects', 'Experience', 'Education', 'Contact'];
+export const navigation = ['Home', 'Projects', 'Skills', 'About', 'Education', 'Experience', 'Contact'];
 export const mainTechnologies = ['Java', 'Spring Boot', 'JavaScript', 'React', 'Node.js', 'PostgreSQL'];
 export const skills = [
-  { title: 'Backend', description: 'Application logic & APIs', items: ['Java', 'Spring Boot', 'Node.js', 'Express.js', 'REST APIs', 'Hibernate / JPA'] },
   { title: 'Frontend', description: 'Interfaces for the web', items: ['JavaScript', 'React', 'HTML', 'CSS'] },
+  { title: 'Backend', description: 'Application logic & APIs', items: ['Java', 'Spring Boot', 'Node.js', 'Express.js', 'REST APIs', 'Hibernate / JPA'] },
   { title: 'Databases', description: 'Relational data & persistence', items: ['PostgreSQL', 'SQL'] },
-  { title: 'Tools & foundations', description: 'Everyday development', items: ['Git / GitHub', 'Maven', 'Object-Oriented Programming', 'Python (basic)'] },
+  { title: 'Tools & concepts', description: 'Development tools & fundamentals', items: ['Git / GitHub', 'Maven', 'Postman', 'Object-Oriented Programming'] },
+  { title: 'Additional', description: 'Currently learning', items: ['C#'] },
 ];
 // Training supplied by the owner; completion dates and certificate claims are not assumed.
 export const training = [

@@ -2,7 +2,7 @@ import ExternalLink from './ExternalLink';
 
 export default function ProjectCard({ project }) {
   return (
-    <article className="projectCard">
+    <article className={'projectCard' + (project.featured ? ' featuredProject' : '')}>
       {project.image && (
         <img className="projectImage" src={project.image} alt={project.imageAlt}
           loading="lazy" width="960" height="600" />

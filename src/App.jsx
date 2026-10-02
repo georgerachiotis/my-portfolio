@@ -15,11 +15,11 @@ export default function App() {
       <Navbar />
       <main id="main" className="container">
         <Hero />
-        <About />
-        <Skills />
         <Projects />
-        <Experience />
+        <Skills />
+        <About />
         <Education />
+        <Experience />
         <Contact />
       </main>
       <Footer />
