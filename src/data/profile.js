@@ -6,10 +6,10 @@ export const links = {
 export const navigation = ['Home', 'Projects', 'Skills', 'About', 'Education', 'Experience', 'Contact'];
 export const mainTechnologies = ['Java', 'Spring Boot', 'JavaScript', 'React', 'Node.js', 'PostgreSQL'];
 export const skills = [
-  { title: 'Backend', description: 'Application logic & APIs', items: ['Java', 'Spring Boot', 'Hibernate / JPA', 'Node.js', 'Express.js', 'C#', 'ASP.NET Core', 'Entity Framework Core', 'REST APIs'] },
+  { title: 'Backend', description: 'Application logic & APIs', items: ['Java', 'Spring Boot', 'Hibernate / JPA', 'Node.js', 'Express.js', 'C#', 'ASP.NET Core', 'Entity Framework Core'] },
   { title: 'Frontend', description: 'Interfaces for the web', items: ['JavaScript', 'React', 'HTML', 'CSS'] },
   { title: 'Databases', description: 'Relational data & persistence', items: ['SQL', 'PostgreSQL', 'Microsoft SQL Server'] },
-  { title: 'Tools & concepts', description: 'Development tools & fundamentals', items: ['Git / GitHub', 'Docker', 'Maven', 'Postman', 'Object-Oriented Programming'] },
+  { title: 'Tools & Concepts', description: 'Development tools & fundamentals', items: ['Git / GitHub', 'Docker', 'Maven', 'Postman', 'RESTful APIs', 'OOP'] },
   { title: 'Additional', description: 'Currently learning', items: ['Angular', 'MongoDB'] },
 ];
 // Training supplied by the owner; completion dates and certificate claims are not assumed.
