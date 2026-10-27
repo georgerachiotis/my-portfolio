@@ -18,7 +18,7 @@ export default function Hero() {
         </div>
       </div>
       <figure className="portrait">
-        <div className="portraitFrame"><img src={profilePic} alt="Georgios Rachiotis" width="420" height="500" fetchPriority="high" /></div>
+        <div className="portraitFrame"><img src={profilePic} alt="Georgios Rachiotis" width="2736" height="2646" fetchPriority="high" /></div>
         <figcaption><span>Learning. Building. Moving forward.</span><span aria-hidden="true">↗</span></figcaption>
       </figure>
       <div className="heroBottom"><span>Professional experience. A new technical direction.</span><a href="#about">Get to know me <span aria-hidden="true">↓</span></a></div>
