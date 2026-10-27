@@ -285,7 +285,6 @@ h1 span {
   object-fit: cover;
   object-position: center 35%;
   border-radius: 3px;
-  filter: saturate(.65);
 }
 
 .portrait figcaption {
