@@ -1,4 +1,4 @@
-import profilePic from '../assets/profilepic.jpg';
+import profilePic from '../assets/profilepic.png';
 import ExternalLink from './ExternalLink';
 
 export default function Hero() {
@@ -18,7 +18,7 @@ export default function Hero() {
         </div>
       </div>
       <figure className="portrait">
-        <div className="portraitFrame"><img src={profilePic} alt="Georgios Rachiotis" width="2736" height="2646" fetchPriority="high" /></div>
+        <div className="portraitFrame"><img src={profilePic} alt="Georgios Rachiotis" width="1254" height="1254" fetchPriority="high" /></div>
         <figcaption><span>Learning. Building. Moving forward.</span><span aria-hidden="true">↗</span></figcaption>
       </figure>
       <div className="heroBottom"><span>Professional experience. A new technical direction.</span><a href="#about">Get to know me <span aria-hidden="true">↓</span></a></div>
