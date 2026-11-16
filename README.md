@@ -16,7 +16,8 @@ https://georgerachiotis.github.io/my-portfolio/
 
 ## Project structure
 
-- `src/data/profile.js`: contact links, navigation, skills, main technologies and training. Skills are ordered as Backend, Frontend, Databases, Tools & Concepts, and Additional. C# and .NET are listed under Backend; Angular and MongoDB are listed as currently learning.
+- `src/data/profile.js`: contact links, navigation, skills, main technologies and training. Skills follow the CV order: Programming Languages, Frontend, Backend, Databases, and Tools & Concepts.
+- `src/components/Experience.jsx`: current volunteer backend development at FlameVerse AI and Hellenic Army service.
 - `src/data/projects.js`: project descriptions, technologies, highlights, screenshots, demos and repository links.
 - `src/components/ProjectCard.jsx`: shared project presentation. Screenshot and demo elements render only when provided.
 - `src/components/`: page sections and shared interface components.

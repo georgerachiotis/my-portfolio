@@ -6,11 +6,11 @@ export const links = {
 export const navigation = ['Home', 'Projects', 'Skills', 'About', 'Education', 'Experience', 'Contact'];
 export const mainTechnologies = ['Java', 'Spring Boot', 'JavaScript', 'React', 'Node.js', 'PostgreSQL'];
 export const skills = [
-  { title: 'Backend', description: 'Application logic & APIs', items: ['Java', 'Spring Boot', 'Hibernate / JPA', 'Node.js', 'Express.js', 'C#', 'ASP.NET Core', 'Entity Framework Core'] },
-  { title: 'Frontend', description: 'Interfaces for the web', items: ['JavaScript', 'React', 'HTML', 'CSS'] },
-  { title: 'Databases', description: 'Relational data & persistence', items: ['SQL', 'PostgreSQL', 'Microsoft SQL Server'] },
-  { title: 'Tools & Concepts', description: 'Development tools & fundamentals', items: ['Git / GitHub', 'Docker', 'Maven', 'Postman', 'RESTful APIs', 'OOP'] },
-  { title: 'Additional', description: 'Currently learning', items: ['Angular', 'MongoDB'] },
+  { title: 'Programming Languages', description: 'Languages & data queries', items: ['JavaScript', 'TypeScript', 'Java', 'C#', 'Python', 'SQL'] },
+  { title: 'Frontend', description: 'Interfaces for the web', items: ['HTML', 'CSS', 'React'] },
+  { title: 'Backend', description: 'Application logic & APIs', items: ['Spring Boot', 'Node.js', 'Express.js', 'ASP.NET Core'] },
+  { title: 'Databases', description: 'Relational data & persistence', items: ['PostgreSQL', 'Microsoft SQL Server'] },
+  { title: 'Tools & Concepts', description: 'Development tools & fundamentals', items: ['Git', 'GitHub', 'Docker', 'RESTful APIs'] },
 ];
 // Training supplied by the owner; completion dates and certificate claims are not assumed.
 export const training = [
