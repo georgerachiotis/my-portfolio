@@ -1,6 +1,6 @@
 # Georgios Rachiotis — Portfolio
 
-A single-page React and Vite portfolio presenting my work as a Software Developer, with a focus on React and Java. It includes web and desktop projects, technical skills, background, experience and a downloadable CV. The interface uses plain CSS and does not require a routing or UI library.
+A single-page React and Vite portfolio presenting my work as a Software Developer, with a focus on JavaScript, React, Node.js and Java. It includes web and desktop projects, technical skills, background, experience and a downloadable CV. The interface uses plain CSS and does not require a routing or UI library.
 
 ## Live site
 

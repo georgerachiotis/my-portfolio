@@ -4,10 +4,10 @@ export default function About() {
   return (
     <Section id="about" number="03" title="About" intro="A little about me.">
       <div className="aboutGrid">
-        <p className="statement">A software developer with a background in leadership and teamwork.</p>
+        <p className="statement">I'm a Software Developer transitioning from an eight-year career as a Hellenic Army Officer.</p>
         <div className="prose">
-          <p>I'm developing my software skills through hands-on projects, from web applications to desktop software. I'm also completing the Software Development program at Coding Factory, Athens University of Economics and Business (AUEB).</p>
-          <p>My service as an Officer in the Hellenic Army continues to strengthen my teamwork, accountability, decision-making and problem-solving under pressure.</p>
+          <p>I'm building my technical skills through hands-on projects, ranging from interactive web applications to desktop software. Alongside my studies at Coding Factory, Athens University of Economics and Business (AUEB), I'm gaining practical backend development experience as a volunteer at FlameVerse AI, working with Node.js, Express.js and Firebase.</p>
+          <p>My military background has equipped me with strong problem-solving, teamwork, leadership and decision-making skills, which I bring into software development.</p>
         </div>
       </div>
     </Section>

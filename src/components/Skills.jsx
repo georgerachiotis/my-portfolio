@@ -1,4 +1,4 @@
-import { mainTechnologies, skills } from '../data/profile';
+import { skills } from '../data/profile';
 import Section from './Section';
 
 export default function Skills() {
@@ -12,7 +12,7 @@ export default function Skills() {
             <p className="small">{group.description}</p>
             <ul className="tags">
               {group.items.map((item) => (
-                <li className={mainTechnologies.includes(item) ? 'emphasis' : ''} key={item}>
+                <li key={item}>
                   {item}
                 </li>
               ))}
